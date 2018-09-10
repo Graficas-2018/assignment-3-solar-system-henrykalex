@@ -15,3 +15,12 @@ Rubric:
 - Most textures can be found here: http://planetpixelemporium.com/
 - The rotation of the system has to be controlled with the left mouse button, while the panning has to be controlled with the right mouse button. Scale of the scene can be controlled as in the examples.
 
+### TODO:
+* 8 planets (and pluto) -
+  * with their respective moons - 
+* the sun  -
+* asteroid field.
+* Draw orbit -
+* Rotation system -
+* Scale system -
+* Panning system -
