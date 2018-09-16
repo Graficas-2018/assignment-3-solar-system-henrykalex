@@ -81,7 +81,7 @@ function addMouseHandler(canvas){
             (e)=>onMouseDown(e) , false );
     canvas.addEventListener( 'mouseup',
             (e)=>onMouseUp(e) , false );
-    document.addEventListener( 'contextmenu',
+    canvas.addEventListener( 'contextmenu',
             (e)=>onContextMenu(e) , false );
     document.addEventListener( 'keydown',
             (e)=>onKeyDown(e) , false );

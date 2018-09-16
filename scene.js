@@ -157,8 +157,8 @@ function createScene(canvas){
 
   for (var i=0; i < 10000; i++) {
     // particle_system_geometry.vertices.push(new THREE.Vector3(-360,10,0));
-    console.log("getRandRange(0,2*Math.PI)",getRandRange(0,2*Math.PI));
-    console.log("getRandRange(radiusMin,radiusMax)",getRandRange(radiusMin,radiusMax));
+    // console.log("getRandRange(0,2*Math.PI)",getRandRange(0,2*Math.PI));
+    // console.log("getRandRange(radiusMin,radiusMax)",getRandRange(radiusMin,radiusMax));
     let randomAngle = getRandRange(0,2*Math.PI);
     let randomRadius = getRandRange(radiusMin,radiusMax);
     particle_system_geometry.vertices.push(new THREE.Vector3(
@@ -181,6 +181,7 @@ function createScene(canvas){
 
   // Create a group for each planet
   for(let planet in planetsGroups){
+    console.log(planet);
     planetsGroups[planet] = new THREE.Object3D;
     sunGroup.add(planetsGroups[planet]);
     planetsGroups[planet].position.set(0,0, 0);

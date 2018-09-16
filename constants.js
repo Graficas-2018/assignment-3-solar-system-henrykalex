@@ -66,7 +66,7 @@ const planetsData = {
     moons: neptuneMoons
   },
   pluto: {
-    geometry: new THREE.SphereGeometry(1.7,20,20),
+    geometry: new THREE.SphereGeometry(10.7,20,20),
     material: new THREE.MeshPhongMaterial({ map: new THREE.TextureLoader().load("./textures/plutomap1k.jpg") }),
     position: {x:-2400,y:0,z:0},
     moons: plutoMoons
